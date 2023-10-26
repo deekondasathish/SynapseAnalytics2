@@ -6,7 +6,7 @@
 		"type": "AzureBlobFS",
 		"typeProperties": {
 			"url": "https://storageaccount1982sd.dfs.core.windows.net/",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIlNZTkFQU0VARjJEQTUwMjktMTlFQS00QkQzLTkyMUEtMUI3MTg3Q0Y0RTk1XzIwNzU3NDY1LWE4YjYtNDJkMi05ZTBiLWJkMTE4M2IzY2RkNyINCn0="
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIlNZTkFQU0VAOEY2QkU2NDItOEM2RC00QzNBLUE5MzMtNzU3MzE3ODI5ODc1XzlkNWY4YWM5LTQxNDgtNGY3NS04M2NkLWMxNTljMjA0NDIwYyINCn0="
 		},
 		"connectVia": {
 			"referenceName": "AutoResolveIntegrationRuntime",
