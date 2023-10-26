@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "synapsesathish1982"
+		},
+		"AzureSqlDatabaseLinkedService_connectionString": {
+			"value": ""
+		},
+		"StorageAccountLinkdService_accountKey": {
+			"value": ""
+		},
+		"synapsesathish1982-WorkspaceDefaultSqlServer_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:synapsesathish1982.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
+		},
+		"synwrkwpcsathish-WorkspaceDefaultSqlServer_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:synwrkwpcsathish.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
+		},
+		"StorageAccountLinkdService_properties_typeProperties_url": {
+			"value": "https://storageaccount1982sd.dfs.core.windows.net/"
+		},
+		"synapsesathish1982-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://storageaccount1982sd.dfs.core.windows.net"
+		},
+		"synwrkwpcsathish-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://storageaccount1982sd.dfs.core.windows.net"
+		}
+	}
+}
