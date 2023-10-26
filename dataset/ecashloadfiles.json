@@ -1,0 +1,22 @@
+{
+	"name": "ecashloadfiles",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "StorageAccountLinkdService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "ecashload"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
