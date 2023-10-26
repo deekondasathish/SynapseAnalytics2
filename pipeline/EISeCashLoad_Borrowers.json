@@ -34,6 +34,24 @@
 					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "FirstName"
+								},
+								"sink": {
+									"name": "firstname"
+								}
+							},
+							{
+								"source": {
+									"name": "LastName"
+								},
+								"sink": {
+									"name": "lastname"
+								}
+							}
+						],
 						"typeConversion": true,
 						"typeConversionSettings": {
 							"allowDataTruncation": true,
