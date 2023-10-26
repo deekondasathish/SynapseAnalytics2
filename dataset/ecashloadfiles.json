@@ -5,11 +5,18 @@
 			"referenceName": "StorageAccountLinkdService",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"SourceSystemName_Dataset": {
+				"type": "string",
+				"defaultValue": "ecash"
+			}
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": "Borrowers1.txt",
 				"fileSystem": "ecashload"
 			},
 			"columnDelimiter": ",",
@@ -17,6 +24,15 @@
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
-		"schema": []
+		"schema": [
+			{
+				"name": "FirstName",
+				"type": "String"
+			},
+			{
+				"name": "LastName",
+				"type": "String"
+			}
+		]
 	}
 }
